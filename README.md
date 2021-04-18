@@ -1,4 +1,4 @@
-# L4D2-Unlimited-Map
+# L4D2-Unlimited-Map 終極地圖
 v1.0
 
 Original L4D2 maps are modified in this config. Create the Unlimited Map.
