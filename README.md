@@ -32,6 +32,8 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 * <b>[Gun Cabinet](https://forums.alliedmods.net/showthread.php?t=222931)</b>: Spawns a gun cabinet with various weapons and items of your choosing.
 * <b>[Mini Gun Flamethrowers](https://forums.alliedmods.net/showthread.php?p=2005907)</b>: Save and auto-spawn the mini guns: .50 Calibre or L4D1 Mini Gun and makes them into Flamethrowers.
 * <b>[Respawn Rescue Closet](https://forums.alliedmods.net/showthread.php?p=2009851)</b>: Creates a rescue closet to respawn dead players, these can be temporary or saved for auto-spawning.
+* <b>[Flare](https://forums.alliedmods.net/showthread.php?p=1606590)</b>: Creates flares like those from The Sacrifice, either by command or automatically when incapped or upgrade ammo is deployed, either on the ground or attached.
+* <b>[Lamps](https://forums.alliedmods.net/showthread.php?p=1658873)</b>: Spawns various Lamps.
 
 - - - -
 # Others
