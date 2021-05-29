@@ -8,7 +8,7 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 ### Install ###
 - 1. Install latest Sourcemod: [[stable build](https://www.sourcemod.net/downloads.php?branch=stable)]
 - 2. Setup Stripper Source: [[Stripper 1.2.2](http://www.bailopan.net/stripper/snapshots/1.2/)]
-- 3. Install Unlimited-Map: [[Unlimited-Map 1.0](https://github.com/fbef0102/L4D2-Unlimited-Map/archive/refs/heads/main.zip)]
+- 3. Install Unlimited-Map: [[Unlimited-Map 1.1](https://github.com/fbef0102/L4D2-Unlimited-Map/archive/refs/heads/main.zip)]
 
 - - - -	
 ### If you appreciate my work, you can [PayPal Donate](https://paypal.me/Harry0215?locale.x=zh_TW) me.
