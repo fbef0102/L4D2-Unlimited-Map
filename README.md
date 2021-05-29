@@ -1,5 +1,5 @@
 # L4D2-Unlimited-Map 終極地圖
-v1.0
+v1.1
 
 Original L4D2 maps are modified in this config. Create the Unlimited Map.
 
@@ -16,8 +16,12 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 - - - -
 ### Changelog ###
 > **April 18, 2021:**
-- Add [Unlimited C8 No Mercy](https://www.youtube.com/watch?v=UTUjd6hlpt0&feature=youtu.be)
+- Add [Unlimited C8 No Mercy](https://youtu.be/UTUjd6hlpt0)
 
+> **May 29, 2021:**
+- Add [Unlimited C2 Dark Carnival](https://youtu.be/Qq_XvpOJ-cE)
+- Add [Unlimited C10 Death Toll](https://youtu.be/rvGBJDaGnAw)
+- Add [Unlimited C12 Blood Harvest](https://youtu.be/cacYqcy7ObU)
 - - - -
 ### Related Plugin ###
 * <b>[l4d2_spawn_props](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_spawn_props)</b>: Let admins spawn any kind of objects and saved to cfg
