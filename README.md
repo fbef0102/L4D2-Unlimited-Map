@@ -23,7 +23,7 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 - Add [Unlimited C10 Death Toll](https://youtu.be/rvGBJDaGnAw)
 - Add [Unlimited C12 Blood Harvest](https://youtu.be/cacYqcy7ObU)
 
-> **May 29, 2021:**
+> **August 1, 2021:**
 - Add C1 Dead Center
 - Add C3 Swamp Fever
 
