@@ -22,6 +22,11 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 - Add [Unlimited C2 Dark Carnival](https://youtu.be/Qq_XvpOJ-cE)
 - Add [Unlimited C10 Death Toll](https://youtu.be/rvGBJDaGnAw)
 - Add [Unlimited C12 Blood Harvest](https://youtu.be/cacYqcy7ObU)
+
+> **May 29, 2021:**
+- Add C1 Dead Center
+- Add C3 Swamp Fever
+
 - - - -
 ### Related Plugin ###
 * <b>[l4d2_spawn_props](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_spawn_props)</b>: Let admins spawn any kind of objects and saved to cfg
