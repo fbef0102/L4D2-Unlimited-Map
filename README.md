@@ -1,5 +1,5 @@
 # L4D2-Unlimited-Map 終極地圖
-v1.1
+v1.3
 
 Original L4D2 maps are modified in this config. Create the Unlimited Map.
 
@@ -8,7 +8,7 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 ### Install ###
 - 1. Install latest Sourcemod: [[stable build](https://www.sourcemod.net/downloads.php?branch=stable)]
 - 2. Setup Stripper Source: [[Stripper 1.2.2](http://www.bailopan.net/stripper/snapshots/1.2/)]
-- 3. Install Unlimited-Map: [[Unlimited-Map 1.1](https://github.com/fbef0102/L4D2-Unlimited-Map/archive/refs/heads/main.zip)]
+- 3. Install Unlimited-Map: [[Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map/archive/refs/heads/main.zip)]
 
 - - - -	
 ### If you appreciate my work, you can [PayPal Donate](https://paypal.me/Harry0215?locale.x=zh_TW) me.
@@ -24,8 +24,11 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 - Add [Unlimited C12 Blood Harvest](https://youtu.be/cacYqcy7ObU)
 
 > **August 1, 2021:**
-- Add C1 Dead Center
-- Add C3 Swamp Fever
+- Add [C1 Dead Center](https://youtu.be/2tl0V7lj8fU)
+- Add [C3 Swamp Fever](https://youtu.be/9AG7YmhBbxM)
+
+> **August 21, 2021:**
+- Add [C14 The Last Stand](https://youtu.be/JFmK946J3xo)
 
 - - - -
 ### Related Plugin ###
