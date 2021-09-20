@@ -93,7 +93,7 @@ __CollectEventCallbacks( this, "OnGameEvent_", "GameEventCallbacks", RegisterScr
 	// Exclude VS Survival (mutation15) from only overtly obvious new props.
 
 	//by_Harry
-	//just load the god damn "anv_versus" fix anyway
+	//just load the god damn "anv_versus.nut" Script anyway
 	if ( HasPlayerControlledZombies() == true || HasPlayerControlledZombies() == false )
 	{
 		EntFire( "worldspawn", "RunScriptFile", "anv_versus" );
@@ -228,6 +228,8 @@ make_clip( "_booster_building", "Survivors", 1, "-8 -384 0", "8 384 128", "-5064
 				devchap( "BASE COOP" );
 
 				// FIXES
+
+make_clip(	"_booster_mallroof",		"Survivors",	1,	"0 -130 -377",		"2150 136 448",		"-9218 -4415 1024" );
 
 				break;
 			}
@@ -458,6 +460,11 @@ con_comment( "KILL:\tShrubwall shortcut unpatched for Coop (popular request)." )
 
 EntFire( g_UpdateName + "_shortcut_start*", "Kill" );
 
+make_clip( "_overpass_trucknuke", "Survivors", 1, "-126 -45 0", "-33 45 156", "3467 7102 -704", "0 -14 0" );
+make_clip( "_tank_busleft", "Survivors", 1, "-258 -56 0", "271 52 430", "1731 6723 -574", "0 -28 0" );
+make_clip( "_tank_busright", "Survivors", 1, "-284 -48 -200", "284 48 200", "1688 7008 -344", "0 22 0" );
+make_clip( "_tank_fence", "Survivors", 1, "-780 -14 -130", "780 14 156", "2588 7168 -412" );
+
 				break;
 			}
 			if ( g_BaseMode == "versus" )
@@ -539,6 +546,18 @@ make_clip( "_dispcollision_fairgrounds", "All and Physics", 1, "-1400 -1700 -2",
 				devchap( "BASE COOP" );
 
 				// FIXES
+				
+make_clip(	"_booster_uppertrackb",		"Survivors",	1,	"-64 -448 -320",	"64 448 320",		"-1536 -2368 448" );
+make_clip(	"_booster_uppertracka",		"Survivors",	1,	"-57 -313 -208.5",	"57 313 208.5",		"-2721 -825 337" );
+make_clip( "_clipextend_carouselboost", "Survivors", 1, "-234 -4 0", "234 4 666", "-1446 -5248 192" );
+
+// Piggyback on Survivor-filtered trigger just beyond the carousel off switch.
+
+con_comment( "LOGIC:\tAnti-boost ToL clips will be deleted by existing trigger after carousel switch." );
+
+make_clip( "_tol_clip_brush_a", "Survivors", 1, "-818 -16 0", "82 599 572", "-3530 -5162 192" );
+make_clip( "_tol_clip_brush_b", "Survivors", 1, "-9 -263 0", "488 -1 572", "-3439 -5178 192" );
+DoEntFire( "!self", "AddOutput", "OnTrigger anv_mapfixes_tol_clip_brush*:Kill::-1", 0.0, null, Entities.FindByClassnameNearest( "trigger_once", Vector( -2496, -6544, 4 ), 1 ) );
 
 				break;
 			}
@@ -645,6 +664,24 @@ make_prop( "dynamic", "_onewayhole_blockpipe", "models/props_pipes/pipeset08d_12
 				devchap( "BASE COOP" );
 
 				// FIXES
+				
+make_clip(	"_shortcut_longjump",		"Survivors",	1,	"-17 -216 0",		"17 216 1580",		"-4240 2616 171" );
+
+make_clip(	"_shortcut_supports",		"Survivors",	1,	"-86 -10 -137",		"86 10 32",		"-3904 2062 96" );
+make_clip(	"_cliprework_scaffnuke_skipa",	"Survivors",	1,	"-120 -111 -48",	"150 88 310",		"-3044 3000 177" );
+make_clip(	"_cliprework_scaffnuke_skipb",	"Survivors",	1,	"-90 -211 -48",		"82 0 310",		"-2788 2760 177" );
+make_clip(	"_cliprework_scaffnuke_skipc",	"Survivors",	1,	"-120 -111 -48",	"20 -73 1545",		"-3044 3000 177" );
+make_clip(	"_cliprework_scaffnuke_skipd",	"Survivors",	1,	"-90 -211 -48",		"-61 0 1545",		"-2788 2760 177" );
+make_clip(	"_cliprework_roofa",		"Survivors",	1,	"-108 -224 -320",	"108 224 1100",		"-3596 1560 640" );
+make_clip(	"_cliprework_roofb",		"Survivors",	1,	"-295 -444 -280",	"295 444 1100",		"-3970 1558 640" );
+make_clip(	"_cliprework_sign",		"Survivors",	1,	"-307 -70 0",		"307 70 1320",		"-3902 2321 431" );
+make_clip( "_chargerassist_container", "Survivors", 1, "-207 -62 0", "182 66 832", "-718 590 128" );
+make_clip( "_shortcut_commonhopg", "Survivors", 1, "-10 -10 -56", "10 10 103", "-3848 1976 57" );
+make_clip( "_shortcut_supportdropa", "Survivors", 1, "-28 -55 0", "35 35 1150", "-3260 2854 576" );
+make_clip( "_shortcut_supportdropb", "Survivors", 1, "-28 -216 0", "35 35 1150", "-3300 2810 576" );
+make_clip( "_shortcut_finally_done", "Survivors", 1, "-8 -146 0", "0 146 255", "-2894 2609 253", "9 0 0" );
+make_clip( "_booster_eventskip1", "Survivors", 1, "-253 -16 -459", "332 23 32", "-3106 3081 960" );
+make_clip( "_booster_eventskip2", "Survivors", 1, "-253 -72 -459", "-246 23 32", "-3106 3081 960" );
 
 				break;
 			}
@@ -741,6 +778,9 @@ patch_spawninfront( "-508 2503 -256", "-8 -51 0", "8 51 160" );
 con_comment( "KILL:\tSafe roof exploit unpatched for Coop (popular request)." );
 
 EntFire( g_UpdateName + "_outhouse_saferoof", "Kill" );
+
+make_clip( "_commonhop_generator1", "Survivors", 1, "-35 -16 0", "35 16 50", "-1716 273 -81", "0 0 20" );
+make_clip( "_commonhop_generator2", "Everyone", 1, "8 0 0", "58 8 164", "-1660 275 -192", "0 -19 0" );
 
 				break;
 			}
@@ -905,6 +945,8 @@ make_prop( "dynamic", "_keepcalmgator", "models/props_fairgrounds/alligator.mdl"
 				devchap( "BASE COOP" );
 
 				// FIXES
+				
+make_clip(	"_cliprework_jonesroof",	"Survivors",	1,	"-276 -296 -396",	"276 296 396",		"-8304 7216 628" );			
 
 				break;
 			}
@@ -965,6 +1007,15 @@ make_clip( "_boat_smoother", "Everyone", 1, "-16 -24 0", "16 24 30", "-7863 5391
 				devchap( "BASE COOP" );
 
 				// FIXES
+				
+make_clip( "_brokenhouse_hedgegap", "Survivors", 1, "-68 -468 0", "98 257 502", "3915 2029 145", "0 -11 0" );
+
+con_comment( "LOGIC:\tAnti-skip plane clips will be deleted when door is blown." );
+
+make_clip( "_cabin_door_button_a", "Survivors", 1, "-138 -176 -13", "138 372 444", "-1932 3700 196", "0 28 0" );
+make_clip( "_cabin_door_button_b", "Survivors", 1, "-147 -434 -70", "138 404 444", "-1888 3079 226" );
+make_clip( "_cabin_door_button_c", "Survivors", 1, "-112 -516 -30", "108 431 521", "-1622 2298 162", "0 28 0" );
+EntFire( "Blow_door", "AddOutput", "OnTrigger anv_mapfixes_cabin_door_button*:Kill::0:-1" );
 
 				break;
 			}
@@ -1030,6 +1081,9 @@ make_prop( "dynamic", "_permstuck_cratetop", "models/props_crates/static_crate_4
 				devchap( "BASE COOP" );
 
 				// FIXES
+				
+make_clip(	"_shortcut_window",		"Survivors",	1,	"-6 -66 -64",		"6 66 110",		"-4120 -2232 38" );
+make_clip( "_shortcut_barricadetarp", "Survivors", 1, "-107 -114 -1", "103 82 742", "-4786 1014 298" );
 
 				break;
 			}
@@ -1187,6 +1241,8 @@ make_trigduck( "_duckqol_playground", "-156 -1 0", "156 1 77", "-1442 6968 119" 
 				devchap( "BASE COOP" );
 
 				// FIXES
+				
+make_clip( "_treehouse_whitefence", "Survivors", 1, "-17 -80 0", "17 77 1125", "1767 2219 267" );
 
 				break;
 			}
@@ -1289,6 +1345,9 @@ patch_ladder( "1454 -5565.5 292.25", "0 2 0" );
 				devchap( "BASE COOP" );
 
 				// FIXES
+				
+make_clip( "_truck_fence1", "Survivors", 1, "-3 -128 -1546", "3 128 1546", "4292 -2990 1641.5" );
+make_clip( "_truck_fence2", "Survivors", 1, "-92 -3 -1546", "92 3 1546", "4388 -2865 1642" );
 
 				break;
 			}
@@ -1387,6 +1446,9 @@ patch_ladder( "1454 -5565.5 292.25", "0 2 0" );
 				devchap( "BASE COOP" );
 
 				// FIXES
+				
+make_clip( "_truck_fence1", "Survivors", 1, "-3 -128 -1546", "3 128 1546", "4292 -2990 1641.5" );
+make_clip( "_truck_fence2", "Survivors", 1, "-92 -3 -1546", "92 3 1546", "4388 -2865 1642" );
 
 				break;
 			}
@@ -1447,6 +1509,8 @@ make_clip( "_permstuck_highuptree", "Everyone", 1, "-32 -54 0", "24 24 10", "-33
 				devchap( "BASE COOP" );
 
 				// FIXES
+				
+make_clip( "_treehouse_whitefence", "Survivors", 1, "-17 -80 0", "17 77 1125", "1767 2219 267" );
 
 				break;
 			}
@@ -1601,6 +1665,8 @@ make_clip( "_ledgehang_startfenceright", "Survivors", 1, "-8 -24 0", "8 24 360",
 				devchap( "BASE COOP" );
 
 				// FIXES
+				
+make_clip(	"_clipgap_fence",		"Survivors",	1,	"-32 -12 -82",		"32 12 82",		"-1740 -1284 -134" );
 
 				break;
 			}
@@ -1744,6 +1810,11 @@ make_clip( "_nav_cornertree", "Survivors", 1, "-83 -116 0", "97 180 935", "10459
 				devchap( "BASE COOP" );
 
 				// FIXES
+				
+make_clip( "_shortcut_vanjump", "Survivors", 1, "-41 0 0", "41 5 59", "4425 5257 28", "0 -16 10" );
+
+make_clip( "_nav_brokenhome_shortcuta", "Survivors", 1, "-5 -51 0", "5 66 130", "2301 958 31", "-10 0 0" );
+make_clip( "_nav_brokenhome_shortcutb", "Survivors", 1, "-5 -51 0", "5 66 130", "2302 1290 31", "-10 0 0" );
 
 				break;
 			}
@@ -1828,6 +1899,18 @@ unsolidify_model( "models/props_fortifications/orange_cone001_reference.mdl" );
 				devchap( "BASE COOP" );
 
 				// FIXES
+
+make_clip(	"_commonhop_signalbox",		"Survivors",	1,	"-19 -44 -527",		"19 64 527",		"-1645 1946 591" );
+make_clip(	"_commonhop_rollupdoor",	"Survivors",	1,	"-13 -65 -376",		"13 65 528",		"-1652 1745 573" );
+make_clip(	"_commonhop_fountain",		"Survivors",	1,	"-71 -222 0",		"71 700 777",		"-2881 3746 399" );
+make_clip( "_clipgap_leftfence", "Survivors", 1, "-32 -4 0", "32 4 208", "-2976 3452 184" );
+
+// Piggyback on Survivor-filtered trigger that queries Director for car alarm.
+
+con_comment( "LOGIC:\tTMP shortcut fence clip will be deleted when a Survivor exits final building." );
+
+make_clip( "_shortcut_fence_TMP", "Survivors", 1, "-84 -12 0", "86 9 149", "-1836 -1212 208" );
+DoEntFire( "!self", "AddOutput", "OnTrigger anv_mapfixes_shortcut_fence_TMP:Kill::0:-1", 0.0, null, Entities.FindByClassnameNearest( "trigger_once", Vector( -1540, -1604, 314 ), 1 ) );
 
 				break;
 			}
@@ -1926,6 +2009,20 @@ make_clip( "_clipextend_endchopper", "Survivors", 1, "-125 -506 0", "135 299 185
 				devchap( "BASE COOP" );
 
 				// FIXES
+
+make_clip(	"_bunnyhop_girder",		"Survivors",	1,	"-610 -17 -101",	"40 24 256",		"-5528 6568 860" );
+make_clip(	"_solidify_girderleft",		"Survivors",	1,	"-500 0 0",		"0 40 50",		"4544 6600 750" );
+make_clip(	"_solidify_girderright",	"Survivors",	1,	"-500 -40 0",		"0 0 50",		"4544 6050 750" );
+make_clip( "_solidify_stuckwarp1", "Survivors", 1, "-26 -10 -37", "61 11 32", "4152 6617 729" );
+make_clip( "_solidify_stuckwarp2", "Survivors", 1, "-26 -10 -37", "61 11 32", "4152 6034 729" );
+make_clip( "_solidify_stuckwarp3", "Survivors", 1, "-86 -10 -37", "15 11 32", "4502 6034 729" );
+make_clip( "_solidify_stuckwarp4", "Survivors", 1, "-86 -10 -37", "15 11 32", "4502 6617 729" );
+make_clip(	"_solidify_alt_girderleft",	"Survivors",	1,	"-500 0 0",		"0 40 50",		"7187 6600 750" );
+make_clip(	"_solidify_alt_girderright",	"Survivors",	1,	"-500 -40 0",		"0 0 50",		"7187 6050 750" );
+make_clip( "_solidify_alt_stuckwarp1", "Survivors", 1, "-26 -10 -37", "61 11 32", "6795 6617 729" );
+make_clip( "_solidify_alt_stuckwarp2", "Survivors", 1, "-26 -10 -37", "61 11 32", "6795 6034 729" );
+make_clip( "_solidify_alt_stuckwarp3", "Survivors", 1, "-86 -10 -37", "15 11 32", "7145 6034 729" );
+make_clip( "_solidify_alt_stuckwarp4", "Survivors", 1, "-86 -10 -37", "15 11 32", "7145 6617 729" );
 
 				break;
 			}
@@ -2653,6 +2750,12 @@ unsolidify_model( "models/props/de_nuke/IndustrialLight01.mdl" );
 
 				// FIXES
 
+make_clip( "_nav_backlightleft", "Survivors", 1, "6 -13 -61", "9 15 84", "5249 4124 -265" );
+make_clip( "_nav_backlightright", "Survivors", 1, "6 -13 -61", "9 15 84", "5243 4210 -265" );
+
+make_clip( "_subwaymount_in", "Survivors", 1, "-49 -248 0", "63 247 58", "6337 3137 -154", "0 41 0" );
+make_clip( "_subwaymount_out", "Survivors", 1, "-49 -248 0", "63 247 58", "6769 2895 -154", "0 79 0" );
+
 				break;
 			}
 			if ( g_BaseMode == "versus" )
@@ -2743,6 +2846,17 @@ EntFire( "washer_lift_button2", "AddOutput", "OnPressed anv_mapfixes_ladderqol_s
 				devchap( "BASE COOP" );
 
 				// FIXES
+
+make_clip(	"_window_ricky",		"Survivors",	1,	"-368 0 0",		"144 4 80",		"13680 11132 208" );
+make_clip(	"_commonhop_trimescape",	"Survivors",	1,	"-288 -1 0",		"312 5 525",		"14240 11137 208" );
+
+con_comment( "LOGIC:\tTMP shortcut booster clips will be deleted when Scissor Lift is started.\n"
+	   + "\tCaution: Do not delete this logic otherwise the clips are gamebreakers." );
+
+make_clip(	"_shortcut_booster_TMP1",	"Survivors",	1,	"-126 -19 0",		"127 20 1048",		"10897 6764 176" );
+make_clip(	"_shortcut_booster_TMP2",	"Survivors",	1,	"-24 -303 0",		"24 304 972",		"11032 7048 252" );
+
+EntFire( "washer_lift_button2", "AddOutput", "OnPressed anv_mapfixes_shortcut_booster_TMP*:Kill::0:-1" );
 
 				break;
 			}
@@ -3001,6 +3115,9 @@ EntFire( "fire_howitzer", "AddOutput", "OnPressed zombie_breakwall09:AddOutput:m
 
 				// FIXES
 
+make_clip(	"_allmodes_griefrooma",		"Survivors",	1,	"0 0 0",		"530 126 950",		"156 -6648 -22" );
+make_clip(	"_allmodes_griefroomb",		"Survivors",	1,	"0 -770 0",		"130 0 950",		"28 -6652 -22" );
+
 				break;
 			}
 			if ( g_BaseMode == "versus" )
@@ -3243,6 +3360,12 @@ make_clip( "_grating_smootherb", "Everyone", 1, "-326 -495 -2", "-45 -450 1", "-
 
 				// FIXES
 
+make_clip( "_shortcut_commonhop", "Survivors", 1, "-25 69 -89", "-22 73 91", "-8050 -8422 -487" );
+
+make_clip(	"_bunnyhop_endwindow",		"Survivors",	1,	"-606 -7 0",		"100 7 128",		"-7998 -6007 -48" );
+make_clip(	"_commonhop_pipe",		"Survivors",	1,	"-4 -104 -56",		"4 104 56",		"-8044 -7280 -408" );
+make_clip( "_cliprework_commonhop", "Survivors", 1, "-172 -8 -44", "172 8 44", "-6452 -6008 136" );
+
 				break;
 			}
 			if ( g_BaseMode == "versus" )
@@ -3335,6 +3458,8 @@ make_clip( "_booster_watertowerclip", "Survivors", 1, "-538 -16 0", "348 66 900"
 
 				// FIXES
 
+make_clip( "_cliprework_smokertrolling", "Survivors", 1, "-207 -21 0", "219 8 259", "-11857 -5323 85" );
+
 				break;
 			}
 			if ( g_BaseMode == "versus" )
@@ -3400,6 +3525,13 @@ patch_spawninfront( "288 -5284 93", "0 -96 0", "544 96 17" );
 				devchap( "BASE COOP" );
 
 				// FIXES
+
+make_clip( "_cliprework_trucknuke", "Survivors", 1, "-180 -60 -2", "115 60 1624", "693 -1867 105", "0 43 0" );
+
+make_clip( "_cliprework_eventskip1", "Survivors", 1, "-55 -1 0", "58 1 1588", "852 -2433 140" );
+make_clip( "_cliprework_eventskip2", "Survivors", 1, "-209 -2 0", "192 2 1588", "661 -2569 140", "0 45 0" );
+make_clip( "_cliprework_eventskip3", "Survivors", 1, "-156 -1 0", "141 1 1588", "372 -2717 140" );
+make_clip( "_cliprework_eventskip4", "Survivors", 1, "-26 -59 0", "-24 41 1588", "242 -2757 140" );
 
 				break;
 			}
@@ -3515,6 +3647,8 @@ EntFire( "trigger_finale", "AddOutput", "UseStart worldspawn:CallScriptFunction:
 
 				// FIXES
 
+make_clip(	"_indoor_roof",			"Survivors",	1,	"-60 -84 -28",		"60 84 28",		"2244 4076 100" );
+
 				break;
 			}
 			if ( g_BaseMode == "versus" )
@@ -3587,6 +3721,9 @@ make_trighurt( "_instakill_thankyoufailzz", "Survivor", "-2828 -46 -149", "1881 
 
 				// FIXES
 
+make_clip(	"_commonhop_greenhouse",	"Survivors",	1,	"0 -320 -176",		"3 240 690",		"5226 -752 1023" );
+make_clip( "_cliprework_endpassage", "Survivors", 1, "-6 -224 0", "6 224 78", "4858 2552 274" );
+
 				break;
 			}
 			if ( g_BaseMode == "versus" )
@@ -3645,6 +3782,15 @@ make_prop( "dynamic", "_omg_valve_wrongwayg", "models/props_vehicles/van_glass.m
 				devchap( "BASE COOP" );
 
 				// FIXES
+
+// Piggyback on Survivor-filtered trigger that ready-ups end car alarm.
+
+con_comment( "LOGIC:\tAnti-shortcut trighurts will be deleted when a Survivor exits final office stairwell." );
+
+make_trighurt( "_finalstreet_trighurta", "Survivor", "-879 -112 0", "603 48 17", "9071 3888 196" );
+make_trighurt( "_finalstreet_trighurtb", "Survivor", "-1753 -823 0", "59 935 32", "8261 4759 196" );
+make_trighurt( "_finalstreet_trighurtc", "Survivor", "-781 -361 0", "359 599 32", "9101 4969 196" );
+DoEntFire( "!self", "AddOutput", "OnTrigger anv_mapfixes_finalstreet_trighurt*:Kill::0:-1", 0.0, null, Entities.FindByClassnameNearest( "trigger_once", Vector( 8616, 4320, 140 ), 1 ) );
 
 				break;
 			}
@@ -3721,6 +3867,9 @@ NetProps.SetPropInt( Entities.FindByName( null, "barricade_gas_can" ), "m_Collis
 				devchap( "BASE COOP" );
 
 				// FIXES
+
+make_clip(	"_booster_windows",		"Survivors",	1,	"-6 -80 0",		"6 80 128",		"-3082 3152 160" );
+make_clip(	"_bunnyhop_windows",		"Survivors",	1,	"-6 -180 0",		"6 180 128",		"-2954 1393 160" );
 
 				break;
 			}
@@ -3800,6 +3949,8 @@ EntFire( "securityspotlight1",	"AddOutput",	"origin 1025.7 1750.9 125.456",		1 )
 				// FIXES
 
 patch_spawninfront( "2552 4080 152", "0 -16 0", "614 16 244" );
+
+make_clip( "_altpath_escalator", "Survivors", 1, "-37 -6 -35", "25 6 175", "2289 1737 51", "0 0 -2.5" );
 
 				break;
 			}
@@ -3926,6 +4077,8 @@ make_trighurt( "_instakill_fallrevivenoper", "Survivor", "-744 -527 0", "1304 87
 				devchap( "BASE COOP" );
 
 				// FIXES
+
+make_clip( "_nav_quarrybeams", "Survivors", 1, "-152 -7 0", "152 1 288", "-7808 -9481 512" );
 
 				break;
 			}
@@ -4131,6 +4284,12 @@ make_prop( "dynamic", "_solidify_survivorchimney", "models/props/cs_militia/fire
 con_comment( "TRIG_UNDO:\tDelete anv_maptrigs.nut blockers which prevent train car commonhop skip for Coop-only." );
 
 EntFire( g_UpdateName + "_eventskip_commonhop*", "Kill", null, 4 );
+
+make_clip( "_commonhop_roadsidefence", "Survivors", 1, "-3 -29 0", "5 27 1608", "10647 -7547 84" );
+make_clip( "_clipextend_traintruss", "Survivors", 1, "-204 -4 0", "208 128 1462", "10444 -7516 232" );
+
+make_clip(	"_shortcut_warehouse",		"Survivors",	1,	"0 -32 -32",		"8 64 256",		"10272 -7848 152" );
+make_clip(	"_commonhop_traintruss",	"Survivors",	1,	"-160 -120 -55",	"160 120 1545",		"10879 -7463 116" );
 
 				break;
 			}
@@ -4345,6 +4504,10 @@ patch_spawninfront( "78 8574 -405", "-70 -8 0", "70 8 256" );
 
 				// FIXES
 
+make_clip( "_shortcut_easybigskip1", "Survivors", 1, "-8 -56 0", "8 56 2442", "506 4983 253", "0 46 0" );
+make_clip( "_shortcut_easybigskip2", "Survivors", 1, "-64 -66 0", "8 260 2442", "503 4713 253", "0 -10 0" );
+make_clip( "_shortcut_easybigskip3", "Survivors", 1, "-64 -316 0", "8 96 2442", "483 4553 253", "0 -4 0" );
+
 				break;
 			}
 			if ( g_BaseMode == "versus" )
@@ -4421,6 +4584,11 @@ make_clip( "_bridge_collision", "All and Physics", 1, "-45 -473 0", "46 463 4", 
 
 patch_ladder( "-410.09 -4121.79 1386", "15 15 10" );
 
+con_comment( "LOGIC:\tAnti-shortcut tanker clip will be deleted upon its destruction." );
+
+make_clip( "_shortcut_tanker", "Survivors", 1, "-58 -577 0", "58 271 527", "1092 -3999 1328", "0 27 0" );
+EntFire( "tanker_destruction_relay", "AddOutput", "OnTrigger anv_mapfixes_shortcut_tanker:Kill::0:-1" );
+
 				break;
 			}
 			if ( g_BaseMode == "versus" )
@@ -4496,6 +4664,8 @@ make_clip( "_permstuck_umheymatt", "Everyone", 1, "-16 -128 0", "16 128 142", "1
 				devchap( "BASE COOP" );
 
 				// FIXES
+
+make_clip( "_commonhop_endshortcut", "Survivors", 1, "-94 -35 -153", "93 -29 1437", "-693 4555 35", "0 5 0" );
 
 				break;
 			}
