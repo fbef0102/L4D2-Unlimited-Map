@@ -1787,8 +1787,8 @@ make_ladder( "_ladder_brickapartment_cloned_unusedmercyback", "11899.5 12470 232
 make_ladder( "_ladder_gasstationfence_cloned_warehousepipe", "11904 8299.5 161", "959 -2392 14" );
 make_ladder( "_ladder_overturnedsemiB_cloned_nodrawfence", "12930.5 5831 90", "-2546 3593 511", "0 -14.27 -5", "0.96 -0.27 0" );
 make_ladder( "_ladder_overturnedsemiT_cloned_sewerdropB", "14128 8198 -476", "-2795 -2229 688" );
-make_ladder( "_ladder_sewerup1_cloned_uppershafts", "12735 10083 -348", "278 445 88" );
-make_ladder( "_ladder_sewerup2_cloned_uppershafts", "12735 10083 -348", "278 933 88" );
+make_ladder( "_ladder_sewerup1_cloned_uppershafts", "12735 10083 -348", "278 438 88", "0 0 0", null, 0 );
+make_ladder( "_ladder_sewerup2_cloned_uppershafts", "12735 10083 -348", "278 926 88", "0 0 0", null, 0 );
 make_ladder( "_ladder_startpawnrear_cloned_warehousepipe", "11904 8299.5 161", "-768 -3429 -26" );
 make_ladder( "_ladder_warehousealley_cloned_endminialley", "13912 10818.5 90", "-1160 -2501 0" );
 make_ladder( "_ladder_warehouseexittall_cloned_unusedmercyback", "11899.5 12470 232", "640 -4441 -177" );
