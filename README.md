@@ -3,7 +3,7 @@ v1.3
 
 Original L4D2 maps are modified in this config. Create the Unlimited Map.
 
-Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums.alliedmods.net/showthread.php?p=2670634) and [Zonemod](https://github.com/SirPlease/L4D2-Competitive-Rework/tree/master/cfg/stripper/zonemod/maps)
+Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums.alliedmods.net/showthread.php?p=2670634) and all contributor in [AlliedModders](https://forums.alliedmods.net/showthread.php?t=331792)
 - - - -
 ### Install ###
 - 1. Install latest Sourcemod: [[stable build](https://www.sourcemod.net/downloads.php?branch=stable)]
