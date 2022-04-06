@@ -1,5 +1,5 @@
 # L4D2-Unlimited-Map 終極地圖
-v1.4
+v1.5
 
 Original L4D2 maps are modified in this config. Create the Unlimited Map.
 
@@ -34,6 +34,9 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 - Add more objects and change route in all maps
 - Add [C2M4 Ticket Cola Event](https://forums.alliedmods.net/showpost.php?p=2774497&postcount=76)
 - Add [C1M2 Gun Shop Gas Event](https://forums.alliedmods.net/showpost.php?p=2775425&postcount=86)
+
+> **April 6, 2022:**
+- Add [C8M2 Gas Event](https://forums.alliedmods.net/showpost.php?p=2775615&postcount=89)
 
 - - - -
 ### Related Plugin ###
