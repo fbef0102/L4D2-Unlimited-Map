@@ -1,5 +1,5 @@
 # L4D2-Unlimited-Map 終極地圖
-v1.5
+v1.6
 
 Original L4D2 maps are modified in this config. Create the Unlimited Map.
 
@@ -37,6 +37,10 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 
 > **April 6, 2022:**
 - Add [C8M2 Gas Event](https://forums.alliedmods.net/showpost.php?p=2775615&postcount=89)
+
+> **April 23, 2022:**
+- Add [C2M3 tunnel of love Holdout Event/Scavenge-Like Event](https://forums.alliedmods.net/showpost.php?p=2776380&postcount=93)
+- Add [C2M2 Emergency Door Event](https://forums.alliedmods.net/showpost.php?p=2777355&postcount=99)
 
 - - - -
 ### Related Plugin ###
