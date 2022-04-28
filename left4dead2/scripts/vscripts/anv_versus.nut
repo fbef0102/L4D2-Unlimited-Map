@@ -518,8 +518,8 @@ make_prop( "dynamic",		"_losblocker_fenceb",		"models/props_urban/fence_cover001
 make_prop( "dynamic", "_propladder_airconda", "models/props_rooftop/acvent04.mdl", "-1938 683 160", "0 180 0", "shadow_no" );
 make_prop( "dynamic", "_propladder_aircondb", "models/props_rooftop/acunit01.mdl", "-1825 490 231", "0 180 0", "shadow_no" );
 make_prop( "dynamic", "_trailerfence_wrongway", "models/props_misc/wrongway_sign01_optimized.mdl", "-1093 2848 100", "0 -90 0", "shadow_no", "solid_no", "255 255 255", "17", "217" );
-make_prop( "physics", "_hittable_bumpera_m4translated", "models/props_fairgrounds/bumpercar.mdl", "-5048 1361 4", "0 338 0" );
-make_prop( "physics", "_hittable_bumperb_m4translated", "models/props_fairgrounds/bumpercar.mdl", "-5123 1374 31", "-1 178 106" );
+//make_prop( "physics", "_hittable_bumpera_m4translated", "models/props_fairgrounds/bumpercar.mdl", "-5048 1361 4", "0 338 0" );
+//make_prop( "physics", "_hittable_bumperb_m4translated", "models/props_fairgrounds/bumpercar.mdl", "-5123 1374 31", "-1 178 106" );
 make_trigmove( "_duckqol_swanroomcpanel", "Duck", "-4 -4 0", "4 4 32", "483 4854 136" );
 make_trigmove( "_duckqol_coastergate", "Duck", "-17 -8 0", "17 8 1", "-2756 1690 139" );
 patch_ladder( "-1278 2672 160", "13 0 0" );
