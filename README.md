@@ -44,7 +44,7 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 
 - - - -
 ### Related Plugin ###
-* <b>[l4d2_spawn_props](https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_spawn_props)</b>: Let admins spawn any kind of objects and saved to cfg
+* <b>[l4d2_spawn_props](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spawn_props)</b>: Let admins spawn any kind of objects and saved to cfg
 * <b>[Footlocker Spawner](https://forums.alliedmods.net/showthread.php?p=1471101)</b>: Auto-spawn footlockers on round start.
 * <b>[Mini Gun Spawner](https://forums.alliedmods.net/showthread.php?p=1622557)</b>: Auto-spawns the Mini Guns .50 Calibre or L4D1 Mini Gun.
 * <b>[Mini Gun Flamethrowers](https://forums.alliedmods.net/showthread.php?p=2005907)</b>: Save and auto-spawn the mini guns: .50 Calibre or L4D1 Mini Gun and makes them into Flamethrowers.
