@@ -42,6 +42,9 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 - Add [C2M3 tunnel of love Holdout Event/Scavenge-Like Event](https://forums.alliedmods.net/showpost.php?p=2776380&postcount=93)
 - Add [C2M2 Emergency Door Event](https://forums.alliedmods.net/showpost.php?p=2777355&postcount=99)
 
+> **Nov 29, 2022:**
+- [Remake C1M3](https://github.com/fbef0102/L4D2-Unlimited-Map/issues/1) by X5005
+
 - - - -
 ### Related Plugin ###
 * <b>[l4d2_spawn_props](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spawn_props)</b>: Let admins spawn any kind of objects and saved to cfg
