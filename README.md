@@ -6,9 +6,9 @@ Original L4D2 maps are modified in this config. Create the Unlimited Map.
 Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums.alliedmods.net/showthread.php?p=2670634) and all contributors in [AlliedModders](https://forums.alliedmods.net/showthread.php?t=331792)
 - - - -
 ### Install ###
-- 1. Install latest Sourcemod: [[stable build](https://www.sourcemod.net/downloads.php?branch=stable)]
-- 2. Setup Stripper Source: [[Stripper 1.2.2](http://www.bailopan.net/stripper/snapshots/1.2/)]
-- 3. Install Unlimited-Map: [[Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map/archive/refs/heads/main.zip)]
+- 1. Install latest Sourcemod: [stable build](https://www.sourcemod.net/downloads.php?branch=stable)
+- 2. Setup Stripper Source: [Stripper 1.2.2](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#stripper)
+- 3. Install Unlimited-Map: [Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map/archive/refs/heads/main.zip)
 
 - - - -	
 ### If you appreciate my work, you can [PayPal Donate](https://paypal.me/Harry0215?locale.x=zh_TW) me.
@@ -66,6 +66,7 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 * <b>[Health Vending Machines](https://forums.alliedmods.net/showthread.php?p=1658844)</b>: Spawn vending machines which supply health when used.
 * <b>[Lamps](https://forums.alliedmods.net/showthread.php?p=1658873)</b>: Spawns various Lamps.
 * <b>[l4d2_ladder_editor](https://github.com/devilesk/rl4d2l-plugins/blob/master/l4d2_ladder_editor.sp)</b>: Clone and move special infected ladders.
+
 - - - -
 # Others
 * <b>[L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)</b>: L4D1/2 general purpose and freaky-fun plugins.
