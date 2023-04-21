@@ -456,9 +456,9 @@ make_clip( "_clipextend_umbrella3", "Survivors", 1, "-48 -52 0", "50 50 522", "2
 
 				// FIXES
 
-con_comment( "KILL:\tShrubwall shortcut unpatched for Coop (popular request)." );
+//con_comment( "KILL:\tShrubwall shortcut unpatched for Coop (popular request)." );
 
-EntFire( g_UpdateName + "_shortcut_start*", "Kill" );
+//EntFire( g_UpdateName + "_shortcut_start*", "Kill" );
 
 make_clip( "_overpass_trucknuke", "Survivors", 1, "-126 -45 0", "-33 45 156", "3467 7102 -704", "0 -14 0" );
 make_clip( "_tank_busleft", "Survivors", 1, "-258 -56 0", "271 52 430", "1731 6723 -574", "0 -28 0" );
@@ -775,9 +775,9 @@ patch_spawninfront( "-508 2503 -256", "-8 -51 0", "8 51 160" );
 
 				// FIXES
 
-con_comment( "KILL:\tSafe roof exploit unpatched for Coop (popular request)." );
+//con_comment( "KILL:\tSafe roof exploit unpatched for Coop (popular request)." );
 
-EntFire( g_UpdateName + "_outhouse_saferoof", "Kill" );
+//EntFire( g_UpdateName + "_outhouse_saferoof", "Kill" );
 
 make_clip( "_commonhop_generator1", "Survivors", 1, "-35 -16 0", "35 16 50", "-1716 273 -81", "0 0 20" );
 make_clip( "_commonhop_generator2", "Everyone", 1, "8 0 0", "58 8 164", "-1660 275 -192", "0 -19 0" );
@@ -2144,9 +2144,9 @@ make_clip( "_cosmetic_right_collision", "SI Players and AI", 1, "-17 -18 -30", "
 
 				// FIXES
 
-con_comment( "KILL:\tOut of bounds fences unpatched for Coop (popular request)." );
+//con_comment( "KILL:\tOut of bounds fences unpatched for Coop (popular request)." );
 
-EntFire( g_UpdateName + "_fence*", "Kill" );
+//EntFire( g_UpdateName + "_fence*", "Kill" );
 
 				break;
 			}
