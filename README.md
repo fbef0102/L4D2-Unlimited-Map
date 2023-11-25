@@ -8,8 +8,12 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 - - - -
 ### Install | 安裝步驟 ###
 1. Install latest [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable) & [Metamod](https://www.sourcemm.net/downloads.php/?branch=stable)
-2. Setup Stripper Source: [Stripper 1.2.2](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#stripper)
-3. Install Unlimited-Map: [Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map/archive/refs/heads/main.zip)
+2. Setup Stripper Source: [Stripper](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#stripper)
+3. Install Unlimited-Map: [Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map/archive/refs/heads/main.zip), Uzip all files and put them into the same folder (```addons/stripper```), press yes if asked to overwrite
+-----------------
+1. 安裝最新版 [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable) & [Metamod](https://www.sourcemm.net/downloads.php/?branch=stable)
+2. 安裝最新版 [Stripper]([https://www.sourcemod.net/downloads.php?branch=stable) & [Metamod](https://www.sourcemm.net/downloads.php/?branch=stable](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9Dstripper))
+3. 點擊下載[Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map/archive/refs/heads/main.zip), 放到 ```addons/stripper``` 相同資料夾，如果有詢問覆蓋則直接按"是"
 
 - - - -	
 ### If you appreciate my work, you can [PayPal Donate](https://paypal.me/Harry0215?locale.x=zh_TW) me.
@@ -59,6 +63,7 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 
 - - - -
 ### Related Plugin | 創造地圖相關插件 ###
+> 可自行下載，自己打造地圖
 * <b>[l4d2_spawn_props](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spawn_props)</b>: Let admins spawn any kind of objects and saved to cfg
 * <b>[Footlocker Spawner](https://forums.alliedmods.net/showthread.php?p=1471101)</b>: Auto-spawn footlockers on round start.
 * <b>[Mini Gun Spawner](https://forums.alliedmods.net/showthread.php?p=1622557)</b>: Auto-spawns the Mini Guns .50 Calibre or L4D1 Mini Gun.
