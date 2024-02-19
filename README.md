@@ -12,7 +12,7 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 3. Install Unlimited-Map: [Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map/archive/refs/heads/main.zip), Uzip all files and put them into the same folder (```addons/stripper```), press yes if asked to overwrite
 -----------------
 1. 安裝最新版 [Sourcemod](https://www.sourcemod.net/downloads.php?branch=stable) & [Metamod](https://www.sourcemm.net/downloads.php/?branch=stable)
-2. 安裝最新版 [Stripper]([https://www.sourcemod.net/downloads.php?branch=stable) & [Metamod](https://www.sourcemm.net/downloads.php/?branch=stable](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9Dstripper))
+2. 安裝最新版 [Stripper](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/Chinese_%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87/Server/%E5%AE%89%E8%A3%9D%E5%85%B6%E4%BB%96%E6%AA%94%E6%A1%88%E6%95%99%E5%AD%B8#%E5%AE%89%E8%A3%9Dstripper)
 3. 點擊下載[Unlimited-Map](https://github.com/fbef0102/L4D2-Unlimited-Map/archive/refs/heads/main.zip), 放到 ```addons/stripper``` 相同資料夾，如果有詢問覆蓋則直接按"是"
 
 - - - -	
@@ -22,13 +22,13 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 ### Video | 影片展示 ###
 - [C1 Dead Center](https://youtu.be/iivlvVJ7QE4)
 - [C2 Dark Carnival](https://youtu.be/W3ORKU1W4DY)
-- [C8 No Mercy](https://youtu.be/I_-QSn8F8Cs)
 - [C3 Swamp Fever](https://youtu.be/Jp1gTxMeMD0)
+- [C8 No Mercy](https://youtu.be/I_-QSn8F8Cs)
 - [C10 Death Toll](https://youtu.be/MIbYYIHfatI)
 - [C12 Blood Harvest](https://youtu.be/Re-692VrnKI)
 - [C14 The Last Stand](https://youtu.be/R9k3V44XIOY)
 
-* <details><summary><b>Changelog</b></summary>
+* <details><summary><b>Changelog | 版本日誌</b></summary>
 
 	> **April 18, 2021:**
 	- Add [Unlimited C8 No Mercy](https://youtu.be/I_-QSn8F8Cs)
@@ -62,8 +62,8 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 </details>
 
 - - - -
-### Related Plugin | 創造地圖相關插件 ###
-> 可自行下載，自己打造地圖
+### Related Plugin | 創造地圖的相關插件 ###
+> Create your own map (可自行下載，自己打造地圖)
 * <b>[l4d2_spawn_props](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d2_spawn_props)</b>: Let admins spawn any kind of objects and saved to cfg
 * <b>[Footlocker Spawner](https://forums.alliedmods.net/showthread.php?p=1471101)</b>: Auto-spawn footlockers on round start.
 * <b>[Mini Gun Spawner](https://forums.alliedmods.net/showthread.php?p=1622557)</b>: Auto-spawns the Mini Guns .50 Calibre or L4D1 Mini Gun.
@@ -85,7 +85,7 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 * <b>[l4d2_ladder_editor](https://github.com/devilesk/rl4d2l-plugins/blob/master/l4d2_ladder_editor.sp)</b>: Clone and move special infected ladders.
 
 - - - -
-# Others
+# Others | 其他
 * <b>[L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)</b>: L4D1/2 general purpose and freaky-fun plugins.
 * <b>[L4D2-Plugins](https://github.com/fbef0102/L4D2-Plugins)</b>: L4D2 plugins
 * <b>[Game-Private_Plugin](https://github.com/fbef0102/Game-Private_Plugin)</b>: Private Plugin List.
