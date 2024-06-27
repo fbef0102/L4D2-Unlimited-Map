@@ -59,6 +59,9 @@ Based on [Sky cfg](https://github.com/Attano/Sky)、[Sparta maps](https://forums
 
 	> **Nov 29, 2022:**
 	- [Remake C1M3](https://github.com/fbef0102/L4D2-Unlimited-Map/issues/1) by X5005
+
+	> **June 27, 2024:**
+	- Add Unlimited C9 Crash Course
 </details>
 
 - - - -
