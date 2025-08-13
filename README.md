@@ -111,6 +111,8 @@ Original L4D2 maps are modified in this config. Create the Unlimited Map.
     * 修復地圖上的門各種問題
   * [Item_Pickup_Fix](/Modify_其他修改/Item_Pickup_Fix.cfg): Fix item spawns(pill, adrenaline, molotov, pipe bomb, vomitjar) having multiple pickups
     * 每個物品(藥丸,腎上腺素,火瓶,土製炸彈,膽汁瓶)與近戰武器只能撿一次
+  * [Remove_M6](/Modify_其他修改/Remove_M6.cfg): Remove M60 weapon on the map
+    * 移除地圖上的M60武器
   * [Remove_Chainsaw](/Modify_其他修改/Remove_Chainsaw.cfg): Remove Chainsaw on the map
     * 移除地圖上的電鋸
   * [Immovable_Physic_Props](/Modify_其他修改/Immovable_Physic_Props.cfg): Make selected props static and Immovable
