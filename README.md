@@ -123,6 +123,8 @@ Original L4D2 maps are modified in this config. Create the Unlimited Map.
     * 移除地圖自帶的環境音樂, 背景音樂與麥克風擴音效果
   * [Remove_Sun](/Modify_其他修改/Remove_Sun.cfg): Remove sun effect in the skybox such as C13M2
     * 移除天空刺眼的光照效果, 譬如C13M2從安全室出來時被閃瞎的效果
+  * [Remove_C6_NPC](/Modify_其他修改/Remove_C6_NPC): Remove L4D1 NPC character in The passing Map
+    * 在"The passing"地圖上移除一代NPC
 </details>
 
 - - - -
