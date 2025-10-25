@@ -125,6 +125,8 @@ Original L4D2 maps are modified in this config. Create the Unlimited Map.
     * 移除天空刺眼的光照效果, 譬如C13M2從安全室出來時被閃瞎的效果
   * [Remove_C6_NPC](/Modify_其他修改/Remove_C6_NPC): Remove L4D1 NPC character in The passing Map
     * 在"The passing"地圖上移除一代NPC
+  * [Remove_Jukebox](/Modify_其他修改/Remove_Jukebox.cfg): Remove jukebox button and music
+    * 移除點唱機的按鈕與音樂
 </details>
 
 - - - -
